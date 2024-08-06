@@ -1,20 +1,26 @@
 ---
-title: Hello World
-description: Welcome to Hugo Theme Stack
+title: Welcome to HANDSONKEYS
+description: The developers best friend.
 slug: hello-world
-date: 2022-03-06 00:00:00+0000
-image: cover.jpg
+date: 2024-08-06 00:00:00+0000
+image: hok_intro.jpg
 categories:
-    - Example Category
+    - First Post
 tags:
-    - Example Tag
+    - HANDS
+    - KEYS
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
-Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!
+Welcome to HANDSONKEYS!
 
-For more information about this theme, check the documentation: https://stack.jimmycai.com/
+HANDSONKEYS is dedicated to providing hands-on instructional content for developers of all skill levels.
 
-Want a site like this? Check out [hugo-theme-stack-stater](https://github.com/CaiJimmy/hugo-theme-stack-starter)
+At HANDSONKEYS, we are dedicated to sparking curiosity about the endless possibilities of coding and creative innovation.
 
-> Photo by [Pawel Czerwinski](https://unsplash.com/@pawel_czerwinski) on [Unsplash](https://unsplash.com/)
+Our mission is to inspire a generation of "hands on keyboard" developers to experiment and excel in the dynamic world of technology!
+
+If you would like to submit an idea, leave some feedback, or say hello - reach out at noah@arkdatastudios.com
+
+
+> Photo by [ARK DATA STUDIOS](https://www.linkedin.com/in/ark-data-studios/)

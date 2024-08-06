@@ -1,7 +1,8 @@
 ---
 title: Markdown Syntax Guide
-date: 2023-09-07
-description: Sample article showcasing basic Markdown syntax and formatting for HTML elements.
+date: 2024-08-06
+description: Tips for using basic Markdown syntax and formatting for HTML elements.
+image: markdown.png
 tags: 
     - markdown
     - css
@@ -12,7 +13,13 @@ categories:
     - syntax
 ---
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+Markdown is a simple and easy-to-use markup language you can use to format virtually any document.
+
+As a developer, Markdown comes in handy for taking you ability to communitcate thru code to the next level.
+
+With Markdown, it's easy to insert special characters to create headers, boldface, bullets, and so on.
+
+This article offers a sample of basic Markdown syntax that can be used on your next project.
 
 <!--more-->
 
@@ -29,9 +36,8 @@ The following HTML `<h1>`—`<h6>` elements represent six levels of section head
 
 ## Paragraph
 
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
-
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
+Headings are created by using the '#' sign.
+Insert your text here under the paragraph heading to increase readibilty.
 
 ## Blockquotes
 
@@ -39,8 +45,8 @@ The blockquote element represents content that is quoted from another source, op
 
 ### Blockquote without attribution
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-> **Note** that you can use *Markdown syntax* within a blockquote.
+> The quote you want to use would go here.
+> **Note** that you can use *Markdown syntax* within a blockquote. Notice the **BOLD** and *Italisiced* font?
 
 ### Blockquote with attribution
 
@@ -49,24 +55,6 @@ The blockquote element represents content that is quoted from another source, op
 
 [^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
 
-## Tables
-
-Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
-
-   Name | Age
---------|------
-    Bob | 27
-  Alice | 23
-
-### Inline Markdown within tables
-
-| Italics   | Bold     | Code   |
-| --------  | -------- | ------ |
-| *italics* | **bold** | `code` |
-
-| A                                                        | B                                                                                                             | C                                                                                                                                    | D                                                 | E                                                          | F                                                                    |
-|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|------------------------------------------------------------|----------------------------------------------------------------------|
-| Lorem ipsum dolor sit amet, consectetur adipiscing elit. | Phasellus ultricies, sapien non euismod aliquam, dui ligula tincidunt odio, at accumsan nulla sapien eget ex. | Proin eleifend dictum ipsum, non euismod ipsum pulvinar et. Vivamus sollicitudin, quam in pulvinar aliquam, metus elit pretium purus | Proin sit amet velit nec enim imperdiet vehicula. | Ut bibendum vestibulum quam, eu egestas turpis gravida nec | Sed scelerisque nec turpis vel viverra. Vivamus vitae pretium sapien |
 
 ## Code Blocks
 ### Code block with backticks
@@ -137,14 +125,30 @@ rev = "11f52b8c72fc3a568e8bb4a4cd1f3eb025ac2e13"
   * Milk
   * Cheese
 
-## Other Elements — abbr, sub, sup, kbd, mark
+## Other Elements — sub, sup, kbd, mark
 
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
-
+### sub - H<sub>2</sub>O 
+```html
 H<sub>2</sub>O
+```
 
+### sup - X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
+```html
 X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
+```
 
+### kbd - Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.
+```html
 Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.
+```
 
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+### mark - Most <mark>salamanders</mark> are nocturnal.
+```html
+Most <mark>salamanders</mark> are nocturnal.
+```
+
+## More on Markdown
+
+Follow this link to see the [docs](https://www.markdownguide.org/)
+
+For more reading, see Kirk's article: [What is Markdown?](https://kirkstrobeck.github.io/whatismarkdown.com/)
