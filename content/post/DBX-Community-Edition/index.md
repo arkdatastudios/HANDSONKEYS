@@ -9,7 +9,8 @@ tags:
     - Databricks Community Edition
 categories:
     - How-To
-    - Learning Resources
+    - Learning Resource
+    - Databricks
 image: db_comm_edition_title.jpg
 ---
 
