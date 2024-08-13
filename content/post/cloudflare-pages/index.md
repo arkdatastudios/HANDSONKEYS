@@ -17,7 +17,7 @@ image: cloudflare_post.png
 
 This hands-on guide will show you how to deploy your website for **free** with **Cloudflare Pages**.
 
-Pages will make your next website deployment simple, while also ensuring *security, speed, and scalability*.
+[Pages](https://pages.cloudflare.com/) will make your next website deployment simple, while also ensuring *security, speed, and scalability*.
 
 With Pages and its deep integration with GitHub, you can build and deploy your own static website with a simple **git push**!
 
