@@ -1,6 +1,6 @@
 ---
-title: Data Days - Gen AI with AWS
-description: Experience the power of generative AI with AWS
+title: Data Days - A Day With Me
+description: Experience the power of Generative AI with AWS.
 date: 2024-11-26 00:00:00+0000
 tags: 
     - AWS
@@ -12,7 +12,7 @@ categories:
     - Generative AI
     - AI
     - AWS
-image: days_days.png
+image: data_days2.png
 ---
 
 I was recently able to attend *AWS's [Generative AI Innovation Day](https://aws-experience.com/amer/smb/e/2fe30/dallas-genai-innovation-workshop) in Dallas.
@@ -36,13 +36,13 @@ I'm watching my figure.
 
 ## Keys or no Keys? - 10:00 AM
 
-After a quick round of introductions, the AWS team gave attendees an overview to what the workshop would be covering during the day.
+After a quick round of introductions, the AWS team gave attendees an overview of what the workshop would be covering during the day.
 
-We were given a business case (*There are two companies going thru a merger. They are in the process of combining their databases with each other*) and a high level walk-thru of the solution architecture we would be implementing using various Amazon services.
+We were given a business case - *There are two companies going thru a merger. They are in the process of combining their databases with each other* - and a high level walk-thru of the solution architecture we would be implementing using various Amazon services.
 
 >*Amazon QuickSight, Amazon Bedrock, and Amazon Q were the my stars for the day.*
 
-Amazon Quicksight was the first service we became familiar with. We used it to explore the data we would be working with. During the time, I felt that Quicksight was standard fair in terms of a BI experience, but my feelings changed during a future lab. More on this later. 
+[Amazon Quicksight](https://docs.aws.amazon.com/quicksight/latest/user/welcome.html) was the first service I became familiar with. I used it to explore the raw data I'd be working with. My first impression was that Quicksight gives the standard fair in terms of a BI experience, but my feelings changed during a future lab. More on this later. 
 
 As the top of the hour approached, a question was raised about if a "low code" or "pro code" experience was preferred by AWS.
  
@@ -60,7 +60,7 @@ A foundational aspect to any Generative AI application is its knowledge base. A 
 
 For this business case, our knowledge base would be comprised of .TXT and .JSON files.
 
-Amazon Bedrock Knowledge Bases made this set-up a breeze. To configure, we used the Bedrock UI to point the location of our source data, select an embedding model, and configure an vector store. 
+[Amazon Bedrock Knowledge Bases](https://aws.amazon.com/bedrock/knowledge-bases/) made this set-up a breeze. To configure, we used the Bedrock UI to point the location of our source data, select an embedding model, and configure an vector store. 
 
 Once the knowledge base was set-up, we had a pretty cool RAG application up and running.
 
@@ -72,7 +72,7 @@ We asked **questions**:
 
 > Answer: *New York*
 
-and **visualized our data** with the model.
+And **visualized our data** with the model.
 
 **Make a placeholder graph here**
 
@@ -176,11 +176,18 @@ There was too much great company around to look at anything else.
 
 Create your own AI apps!
 
-**Put a pic of PartyRock**
+![PartyRock Landing Page](partyrock.jpg)
 
 [PartyRock](https://partyrock.aws/) is AWS's Gen AI Playground.
 
-It's free, and all you need is an email.
+It's **free**, and all you need is an email.
+
+I gave the F1 Helmet generator a shot:
+
+![Keep a Human in the Loop with Production Apps.](HelmetMockup.png)
+
+AI Art is Still Art.
+
 
 *Workshop in collaboration with [bjss](https://www.bjss.com/).
 
