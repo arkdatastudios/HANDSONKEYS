@@ -1,6 +1,6 @@
 ---
 title: Free Website Hosting with Cloudflare Pages
-description: Deploy Static Sites in Seconds
+description: Deploy Static Sites in Seconds.
 date: 2024-08-11 00:00:00+0000
 tags: 
     - Hugo
