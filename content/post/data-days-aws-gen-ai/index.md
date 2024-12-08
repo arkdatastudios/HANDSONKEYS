@@ -12,7 +12,7 @@ categories:
     - Generative AI
     - AI
     - AWS
-image: data_days2.png
+image: data_days4.png
 ---
 
 I was recently able to attend *AWS's [Generative AI Innovation Day](https://aws-experience.com/amer/smb/e/2fe30/dallas-genai-innovation-workshop) in Dallas.
