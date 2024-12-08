@@ -1,7 +1,7 @@
 ---
 title: Data Days - A Day With Me
 description: Experience the power of Generative AI with AWS.
-date: 2024-11-26 00:00:00+0000
+date: 2024-12-08 00:00:00+0000
 tags: 
     - AWS
     - Generative AI
@@ -15,9 +15,9 @@ categories:
 image: data_days4.png
 ---
 
-I was recently able to attend *AWS's [Generative AI Innovation Day](https://aws-experience.com/amer/smb/e/2fe30/dallas-genai-innovation-workshop) in Dallas.
+I was recently able to attend the AWS [Generative AI Innovation Day](https://aws-experience.com/amer/smb/e/2fe30/dallas-genai-innovation-workshop) in Dallas.
 
-Here's how it went.
+Here's how it went...
 
 -----
 
@@ -38,29 +38,29 @@ I'm watching my figure.
 
 After a quick round of introductions, the AWS team gave attendees an overview of what the workshop would be covering during the day.
 
-We were given a business case - *There are two companies going thru a merger. They are in the process of combining their databases with each other* - and a high level walk-thru of the solution architecture we would be implementing using various Amazon services.
+We were given a business case - *There are two companies going through a merger. They are in the process of combining their databases with each other.* - and a high level walk-thru of the solution architecture we would be implementing using various AWS services.
 
->*Amazon QuickSight, Amazon Bedrock, and Amazon Q were the my stars for the day.*
+>*Amazon QuickSight, Amazon Bedrock, and Amazon Q were my stars for the day.*
 
-[Amazon Quicksight](https://docs.aws.amazon.com/quicksight/latest/user/welcome.html) was the first service I became familiar with. I used it to explore the raw data I'd be working with. My first impression was that Quicksight gives the standard fair in terms of a BI experience, but my feelings changed during a future lab. More on this later. 
+[Amazon Quicksight](https://docs.aws.amazon.com/quicksight/latest/user/welcome.html) was the first service I became familiar with. I used it to explore the raw data I'd be working with. My first impression was that Quicksight gives the standard fair in terms of a BI experience, but my feelings changed during a future lab. More on this later... 
 
-As the top of the hour approached, a question was raised about if a "low code" or "pro code" experience was preferred by AWS.
+As the top of the hour approached, a question was raised about if "low code" or "pro code" experiences were preferred by AWS.
  
-After listening to the answer, I was happy to learn about AWS's mission, which is to provide developers ***choice***. AWS prides itself on having both options of "no code" and "pro code" development at a user's disposal.
+After listening to the answer, I was happy to learn about the AWS Mission, which is to provide developers ***choice***. AWS prides itself on having both options of "no code" and "pro code" development at a user's disposal.
 
-However, this event definitely leaned in the "no-code" direction, which was appropriate for a workshop setting. 
+However, this event definitely leaned in the "no-code" direction, which I felt was appropriate for a workshop setting. 
 
-> *Keyboard bangers rejoice. No debugging needed for these sessions.*
+> *Keyboard bangers rejoice. No debugging needed for this workshop.*
 
 ## Let's get building - 11:30 AM
 
 After getting familiar with our use case and associated data, it was time to get building.
 
-A foundational aspect to any Generative AI application is its knowledge base. A knowledge base is the library of information an application will refer to while it generates its content. It could be filled with images, videos, tables, PDF, etc. 
+A foundational aspect to any Generative AI application is its knowledge base. A knowledge base is the library of information an application will refer to while it generates its content. It could be filled with images, videos, tables, PDFs, etc. 
 
-For this business case, our knowledge base would be comprised of .TXT and .JSON files.
+For this business case, our knowledge base would consist  of .TXT and .JSON files.
 
-[Amazon Bedrock Knowledge Bases](https://aws.amazon.com/bedrock/knowledge-bases/) made this set-up a breeze. To configure, we used the Bedrock UI to point the location of our source data, select an embedding model, and configure an vector store. 
+[Amazon Bedrock Knowledge Bases](https://aws.amazon.com/bedrock/knowledge-bases/) made this set-up a breeze. To configure, we used the Bedrock UI to point the location of our source data, select an embedding model, and configure a vector store. 
 
 Once the knowledge base was set-up, we had a pretty cool RAG application up and running.
 
@@ -74,9 +74,9 @@ We asked **questions**:
 
 And **visualized our data** with the model.
 
-**Make a placeholder graph here**
+![This isn't a graph from the workshop. I took 30 seconds to create a PartyRock App. See section 9.3 for more on PartyRock.](Generated_Graph.png)
 
-At the end of this block, my wheels were spinning. As was the rest of the room. 
+At the end of this block, my wheels were spinning. I could sense the same in other attendees. 
 
 No matter your thoughts on if AI is good, bad or in the middle.
 
@@ -122,7 +122,7 @@ See [this episode](https://www.youtube.com/watch?v=R0Uqx9J9pR4&list=PLhr1KZpdzuk
 
 ## *Fin* - 2:30 PM
 
-In our final session, titled Generative BI, we covered ways to generate data-driven stories and insights by using natural language with Amazon Q with QuickSight. It was here where my feelings on QuickSight went from
+In our final session, titled Generative BI, we covered ways to generate data-driven stories and insights by using natural language with Amazon Q with QuickSight. It was here where my feelings on QuickSight went from:
 
 > *"Ehhh I've seen this before"*
 
@@ -130,8 +130,9 @@ In our final session, titled Generative BI, we covered ways to generate data-dri
  
  > *"I haven't seen anything like this yet"*
 
-Specifically, the abilities to create a *multiple* graphs and generate reports on the fly is what did it for me. Being able to bridge the gap between technical and non-technical stakeholders is an age old struggle, but after seeing a report generated in seconds, filled with graphs and insights, I was left thinking about the *art of the possible* in terms of what this technology could do for my teams, my past projects, and my future engagements. 
+Specifically, the ability to create *multiple* graphs and generate reports on the fly is what did it for me. Being able to bridge the gap between technical and non-technical stakeholders is an age old struggle, but after seeing a report generated in seconds, filled with graphs and insights, I was left thinking about the *art of the possible* in terms of what this technology could do for my teams, my past projects, and my future engagements. 
 
+---
 
 To close the day, we had an interactive quiz covering the topics we learned throughout the day.
 
@@ -142,7 +143,7 @@ Even though I didn't win the prize, being able to experience the day left me fee
 
 ## Post-Credit Scene - 4 PM CST
 
-Q: What happens when a 30+ technologists walk into a bar?
+Q: What happens when 30+ technologists walk into a bar?
 
 >A: More networking!
 
@@ -150,9 +151,9 @@ During this time, I spoke with the other attendees and AWS staff to discuss the 
 
 I passed on the apps, but did discover a love for Margherita Pizzas and Blueberry Moscow Mules. 
 
-**put a pic of the food**
+![🍅 Being able to see sauce used to turn me off, but not after this day.](margh.jpg)
 
-By this time in the day, my figure was no where in my sights.
+By this time in the day, my figure was nowhere in my sights.
 
 There was too much great company around to look at anything else.
 
@@ -184,10 +185,11 @@ It's **free**, and all you need is an email.
 
 I gave the F1 Helmet generator a shot:
 
-![Keep a Human in the Loop with Production Apps.](HelmetMockup.png)
+![Yes, its strange, but keep in mind: 1. PartyRock is free 2. Image generation is one of the toughest tasks to get right.](HelmetMockup.png)
 
-AI Art is Still Art.
+Props to AWS for making this app public for the people to see.
 
+Till next time...
 
 *Workshop in collaboration with [bjss](https://www.bjss.com/).
 
